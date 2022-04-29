@@ -14,8 +14,8 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
-    @Bean
-    RestTemplate restTemplate(){
-        return new RestTemplate();
-    }
+//    @Bean
+//    RestTemplate restTemplate(){
+//        return new RestTemplate();
+//    }
 }
